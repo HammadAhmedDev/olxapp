@@ -2,8 +2,8 @@ import React from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import image from './images/phone-app.webp';
-import apple from './images/appstore_2x.webp'
-import anroid from './images/playstore_2x.webp'
+import apple from './images/appstore_2x.webp';
+import anroid from './images/playstore_2x.webp';
 export default function Info(){
     return(
         <Row>
@@ -25,6 +25,7 @@ export default function Info(){
                 </div>
             </Col>
         </Row>
+        
         
     );
 }

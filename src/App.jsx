@@ -3,7 +3,8 @@ import Header from "./comp/Header";
 import Nav from "./comp/Nav";
 import SlideImage from "./comp/SlideSection";
 import AdBox from "./comp/AdSection";
-import Info from './comp/InfoSection'
+import Info from './comp/InfoSection';
+import SubInfoBox from './comp/SubInfo';
 import Container from "react-bootstrap/Container"
 import "./App.css";
 function App(){
@@ -15,6 +16,7 @@ function App(){
       <SlideImage />
       <AdBox/>
       <Info />
+      <SubInfoBox/>
       
 
 

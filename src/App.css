@@ -196,3 +196,11 @@ a{
     margin-right: 5px;
     width: 30px;
 }
+.socialLink>ul{
+  display: inline-block;
+  list-style: none;
+
+}
+li{
+  display: inline;
+}
