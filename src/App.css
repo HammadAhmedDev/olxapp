@@ -209,17 +209,19 @@ a{
 
 }
 table{
-  margin: 50px auto;
+  /* margin: 5px auto; */
   /* border: 1px solid; */
-  width: 70%;
-  margin: 0px 155px;
-  margin-bottom: 20px;
+  width: 90%;
+  margin: 10px 140px;
+  margin-bottom: 10px;
   /* padding: 20px auto; */
+  
 }
 td,th{
   /* border: 1px solid; */
   /* padding: 5px; */
   font-size: 11px;
+  width: 15%;
 }
 th{
   font-size: 15;   
@@ -229,13 +231,10 @@ td{
   font-size: 12 px;
   height: 3px;
   /* border: 1px solid black;  */
+  /* width: 5px; */
   
 }
-td>a{
 
-  color: rgb(192, 214, 228);
-
-}
 td>a:hover{
   text-decoration: none;
 }
@@ -243,6 +242,22 @@ td > a{
   color: rgba(0,47,52,.64) !important;
 
 }
+.StoreIconCell{
+  height: fit-content;
+}
+.StoreIconCell> input{
+  /* border: 1px solid black; */
+  /* margin: 0px !important;
+  padding:0px  !important ;
+  background-color: blanchedalmond; */
+  width: 35%;
+  height: 10px;
+  /* background-color: brown; */
+  padding: 0px !important;
+  height: 25px;
+  margin-right:6px ;
+}
+
 td>ul{
   /* border: 1px solid; */
   width: fit-content;

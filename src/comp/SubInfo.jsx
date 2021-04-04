@@ -3,7 +3,9 @@ import Row from 'react-bootstrap/Row';
 import facebookIcon from './images/facebook icon.png';
 import twitterIcon from './images/twitter icon.png';
 import instaIcon from './images/insta icon.png';
-import playIcon from './images/playicon.png'
+import playIcon from './images/playicon.png';
+import AnroidStore from './images/playstore_2x.webp';
+import AppleStore from './images/appstore_2x.webp';
 export default function SubInfoBox(){
     return(
         <Row className='SubInfoContainer'>
@@ -43,29 +45,24 @@ export default function SubInfoBox(){
                     <td><a href="#watches">Watches</a></td>
                     <td><a href="#OlxBlog">OLX Blog</a></td>
                     <td><a href="#Sitemap">Sitemap</a></td>
-                    <td></td>
+                    {/* <td ></td> */}
                 </tr>
                 <tr className='linkInfo'>
                     <td><a href="#Jobs">Jobs</a></td>
                     <td><a href="#Books">Books</a></td>
                     <td><a href="#Contact Us">Contact Us</a> </td>
                     <td><a href="#Legal & Privacy information">Legal & Privacy information</a></td>
-                    <td rowSpan='2'></td>
+                    {/* <td rowSpan='2'></td> */}
                 </tr>
                 <tr className='linkInfo'>
                     <td><a href="#Mobile Phones">Mobile Phones</a></td>
                     <td><a href="#Dogs">Dogs</a></td>
                     <td><a href="#OLX for Businesses">OLX for Businesses</a></td>
                     <td></td>
-                    <td>
-                    <ul className="socialLink">
-                            <li>
-                               <input type="image" src={facebookIcon} alt=""/>
-                            </li>
-                            <li>
-                               <input type="image" src={twitterIcon} alt=""/>
-                            </li>
-                        </ul>
+                    <td className="StoreIconCell">
+                    <input type="image" src={AppleStore} alt="playStore"/>
+                    <input type="image" src={AnroidStore} alt="playStore"/>
+                    
                     </td>
                 </tr>
 
