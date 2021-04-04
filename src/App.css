@@ -192,15 +192,33 @@ a{
 .outer{
   padding-left: 50px;
 }
+/* SubContainer CSS */
+.SubInfoContainer{
+  background-color: #ebeeef;
+}
 .StoreBox>a{
     margin-right: 5px;
     width: 30px;
 }
-.socialLink>ul{
+.socialLink>li{
   display: inline-block;
   list-style: none;
+  width: 50px;
+  height: fit-content;
 
 }
-li{
-  display: inline;
+table{
+  margin: 10px auto;
+  /* border: 1px solid; */
+  width: 100%;
+  margin: 45px;
+}
+td,th{
+  /* border: 1px solid; */
+  /* padding: 5px; */
+  font-size: smaller;
+}
+ul{
+  border: 1px solid;
+  width: fit-content;
 }
