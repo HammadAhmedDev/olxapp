@@ -277,3 +277,28 @@ li>input{
   height: 16px;
 }
 
+/* footer Section */
+
+.footer>div{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  margin: 15px 140px;
+  
+
+}
+.textBox{
+  font-size: smaller;
+  /* border: 1px solid whitesmoke; */
+
+}
+.textBox>p{
+  margin: 0px !important;
+}
+.footer{
+  background-color: #002f34;
+ 
+
+}

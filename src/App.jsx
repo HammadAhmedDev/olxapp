@@ -5,7 +5,8 @@ import SlideImage from "./comp/SlideSection";
 import AdBox from "./comp/AdSection";
 import Info from './comp/InfoSection';
 import SubInfoBox from './comp/SubInfo';
-import Container from "react-bootstrap/Container"
+import Container from "react-bootstrap/Container";
+import FooterBox from "./comp/footer";
 import "./App.css";
 function App(){
   return(
@@ -17,6 +18,7 @@ function App(){
       <AdBox/>
       <Info />
       <SubInfoBox/>
+      <FooterBox/>
       
 
 
