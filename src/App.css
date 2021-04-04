@@ -195,6 +195,7 @@ a{
 /* SubContainer CSS */
 .SubInfoContainer{
   background-color: #ebeeef;
+  /* padding: 20px 0px; */
 }
 .StoreBox>a{
     margin-right: 5px;
@@ -208,17 +209,56 @@ a{
 
 }
 table{
-  margin: 10px auto;
+  margin: 50px auto;
   /* border: 1px solid; */
-  width: 100%;
-  margin: auto 30px;
+  width: 70%;
+  margin: 0px 155px;
+  margin-bottom: 20px;
+  /* padding: 20px auto; */
 }
 td,th{
   /* border: 1px solid; */
   /* padding: 5px; */
-  font-size: smaller;
+  font-size: 11px;
 }
-ul{
-  border: 1px solid;
+th{
+  font-size: 15;   
+  height: 35px;
+}
+td{
+  font-size: 12 px;
+  height: 3px;
+  /* border: 1px solid black;  */
+  
+}
+td>a{
+
+  color: rgb(192, 214, 228);
+
+}
+td>a:hover{
+  text-decoration: none;
+}
+td > a{
+  color: rgba(0,47,52,.64) !important;
+
+}
+td>ul{
+  /* border: 1px solid; */
   width: fit-content;
+  /* display: none; */
 }
+/* input{
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 20px;
+} */
+.socialLink>li{
+  width: 24px;
+  margin-right: 5px;
+}
+li>input{
+  padding: 0px;
+  height: 16px;
+}
+

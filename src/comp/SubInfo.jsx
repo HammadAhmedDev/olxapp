@@ -8,7 +8,7 @@ export default function SubInfoBox(){
     return(
         <Row className='SubInfoContainer'>
             <table className='SubInfoContainer'>
-                <tr className='tableHeading'>
+                <tr className='tableHeading' >
                     <th>POPULAR CATEGORIES</th>
                     <th>TRENDING SEARCHES</th>
                     <th>ABOUT US</th>
@@ -23,7 +23,7 @@ export default function SubInfoBox(){
                     <td rowSpan="2">
                         <ul className="socialLink">
                             <li>
-                               <input type="image" src={facebookIcon} width='1px' alt=""/>
+                               <input type="image" src={facebookIcon} alt=""/>
                             </li>
                             <li>
                                <input type="image" src={twitterIcon} alt=""/>
@@ -39,25 +39,34 @@ export default function SubInfoBox(){
                 </tr>
                 <tr className='linkInfo'>
                 
-                    <td>Flats for rent</td>
-                    <td>Watches</td>
-                    <td>OLX Blog</td>
-                    <td>Sitemap</td>
+                    <td><a href="#flatsForrent">Flats for rent</a></td>
+                    <td><a href="#watches">Watches</a></td>
+                    <td><a href="#OlxBlog">OLX Blog</a></td>
+                    <td><a href="#Sitemap">Sitemap</a></td>
                     <td></td>
                 </tr>
                 <tr className='linkInfo'>
-                    <td>Jobs</td>
-                    <td>Books</td>
-                    <td>Contact Us </td>
-                    <td>Legal & Privacy information</td>
+                    <td><a href="#Jobs">Jobs</a></td>
+                    <td><a href="#Books">Books</a></td>
+                    <td><a href="#Contact Us">Contact Us</a> </td>
+                    <td><a href="#Legal & Privacy information">Legal & Privacy information</a></td>
                     <td rowSpan='2'></td>
                 </tr>
                 <tr className='linkInfo'>
-                    <td>Mobile Phones</td>
-                    <td>Dogs</td>
-                    <td>OLX for Businesses</td>
+                    <td><a href="#Mobile Phones">Mobile Phones</a></td>
+                    <td><a href="#Dogs">Dogs</a></td>
+                    <td><a href="#OLX for Businesses">OLX for Businesses</a></td>
                     <td></td>
-                    <td></td>
+                    <td>
+                    <ul className="socialLink">
+                            <li>
+                               <input type="image" src={facebookIcon} alt=""/>
+                            </li>
+                            <li>
+                               <input type="image" src={twitterIcon} alt=""/>
+                            </li>
+                        </ul>
+                    </td>
                 </tr>
 
             </table>
