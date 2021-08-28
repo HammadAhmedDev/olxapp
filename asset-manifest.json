@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/olxapp/%20/static/css/main.510dda45.chunk.css",
+    "main.js": "/olxapp/%20/static/js/main.e65d5ca5.chunk.js",
+    "main.js.map": "/olxapp/%20/static/js/main.e65d5ca5.chunk.js.map",
+    "runtime-main.js": "/olxapp/%20/static/js/runtime-main.24e406c5.js",
+    "runtime-main.js.map": "/olxapp/%20/static/js/runtime-main.24e406c5.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/olxapp/%20/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.57e2104d.chunk.js": "/olxapp/%20/static/js/2.57e2104d.chunk.js",
+    "static/js/2.57e2104d.chunk.js.map": "/olxapp/%20/static/js/2.57e2104d.chunk.js.map",
+    "static/js/3.fa94610c.chunk.js": "/olxapp/%20/static/js/3.fa94610c.chunk.js",
+    "static/js/3.fa94610c.chunk.js.map": "/olxapp/%20/static/js/3.fa94610c.chunk.js.map",
+    "index.html": "/olxapp/%20/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/olxapp/%20/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.510dda45.chunk.css.map": "/olxapp/%20/static/css/main.510dda45.chunk.css.map",
+    "static/js/2.57e2104d.chunk.js.LICENSE.txt": "/olxapp/%20/static/js/2.57e2104d.chunk.js.LICENSE.txt",
+    "static/media/appstore_2x.71e14b3a.webp": "/olxapp/%20/static/media/appstore_2x.71e14b3a.webp",
+    "static/media/phone-app.9c34851b.webp": "/olxapp/%20/static/media/phone-app.9c34851b.webp",
+    "static/media/playstore_2x.e0cf54af.webp": "/olxapp/%20/static/media/playstore_2x.e0cf54af.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24e406c5.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.57e2104d.chunk.js",
+    "static/css/main.510dda45.chunk.css",
+    "static/js/main.e65d5ca5.chunk.js"
+  ]
+}
